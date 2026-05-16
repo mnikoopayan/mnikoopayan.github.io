@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Mohammad Saleh Nikoopayan Tak — AI/ML Researcher & Data Scientist. PhD Candidate specializing in machine learning, deep learning, time-series forecasting, and agentic AI systems." />
+  <meta name="keywords" content="machine learning, deep learning, AI, data science, time-series forecasting, RAG, LLM, Python, TensorFlow, PhD researcher" />
+  <meta property="og:title" content="Mohammad Saleh Nikoopayan Tak | AI & ML Researcher" />
+  <meta property="og:description" content="PhD Candidate in AI/ML — building intelligent systems for real-world impact." />
+  <meta property="og:type" content="website" />
+  <title>Mohammad Saleh Nikoopayan Tak | AI & ML Researcher</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- ═══════════════════════════ NAVBAR ═══════════════════════════ -->
+<nav id="navbar">
+  <div class="nav-container">
+    <a href="#hero" class="nav-logo">
+      <span class="logo-bracket">&lt;</span>MSN<span class="logo-bracket">/&gt;</span>
+    </a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#awards">Awards</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="assets/Resume_Nikoopayan.pdf" class="btn-resume" target="_blank">
+      <i class="fas fa-download"></i> Resume
+    </a>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ═══════════════════════════ HERO ═══════════════════════════ -->
+<section id="hero">
+  <div class="hero-bg">
+    <canvas id="particle-canvas"></canvas>
+  </div>
+  <div class="hero-content">
+    <div class="hero-badge">
+      <span class="badge-dot"></span>
+      Available for Summer 2026 Internships &amp; Full-time (Post May 2027)
+    </div>
+    <h1 class="hero-name">
+      Mohammad Saleh<br/>
+      <span class="hero-name-accent">Nikoopayan Tak</span>
+    </h1>
+    <div class="hero-title-wrap">
+      <span class="hero-title-static">I build </span>
+      <span class="hero-typewriter" id="typewriter"></span>
+    </div>
+    <p class="hero-tagline">
+      PhD Candidate · AI/ML Researcher · Data Scientist<br/>
+      <span class="hero-gpa">GPA 4.0/4.0 &nbsp;·&nbsp; U.S. Permanent Resident</span>
+    </p>
+    <div class="hero-stats">
+      <div class="stat-card">
+        <span class="stat-num" data-target="5">0</span>
+        <span class="stat-label">Publications</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-num" data-target="53">0</span><span class="stat-suffix">K</span>
+        <span class="stat-label">NSF Grant</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-num" data-target="700">0</span><span class="stat-suffix">K+</span>
+        <span class="stat-label">Data Points Modeled</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-num" data-target="73">0</span><span class="stat-suffix">%</span>
+        <span class="stat-label">Peak Reduction</span>
+      </div>
+    </div>
+    <div class="hero-cta">
+      <a href="#projects" class="btn-primary">View My Work</a>
+      <a href="#contact" class="btn-secondary">Get In Touch</a>
+    </div>
+    <div class="hero-socials">
+      <a href="https://github.com/mnikoopayan" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      <a href="https://linkedin.com/in/mnikoopayan" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="https://scholar.google.com/citations?user=wWVZoZ0AAAAJ" target="_blank" aria-label="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+      <a href="mailto:tak.msn96@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+    </div>
+  </div>
+  <div class="hero-scroll-hint">
+    <span>Scroll to explore</span>
+    <div class="scroll-arrow"></div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ ABOUT ═══════════════════════════ -->
+<section id="about" class="section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">01 / About</span>
+      <h2 class="section-title">Who I Am</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-text">
+        <p class="about-lead">
+          I am a <strong>PhD candidate in AI and Machine Learning</strong> at New Jersey Institute of Technology, 
+          with a 4.0 GPA and a research focus on intelligent systems that bridge the gap between 
+          cutting-edge ML and real-world deployment.
+        </p>
+        <p>
+          My work spans <strong>probabilistic deep learning</strong>, <strong>agentic AI systems</strong>, 
+          and <strong>retrieval-augmented generation (RAG)</strong> pipelines. I have built and deployed 
+          end-to-end ML workflows on datasets exceeding 700,000 observations, achieving state-of-the-art 
+          results (R² = 0.986) through rigorous feature engineering and Bayesian hyperparameter optimization.
+        </p>
+        <p>
+          As the Entrepreneurial Lead of the <strong>NSF I-Corps SmartComfort startup</strong> (awarded $53,000), 
+          I combine deep technical expertise with product thinking — translating research into systems 
+          that solve real problems at scale.
+        </p>
+        <div class="about-highlights">
+          <div class="highlight-item">
+            <i class="fas fa-brain"></i>
+            <div>
+              <strong>Deep Learning & Forecasting</strong>
+              <span>LSTM, Transformer, CNN-LSTM, Quantile Regression</span>
+            </div>
+          </div>
+          <div class="highlight-item">
+            <i class="fas fa-robot"></i>
+            <div>
+              <strong>Agentic AI & LLM Systems</strong>
+              <span>Multi-agent pipelines, RAG, OpenRouter, ChromaDB</span>
+            </div>
+          </div>
+          <div class="highlight-item">
+            <i class="fas fa-chart-line"></i>
+            <div>
+              <strong>End-to-End ML Engineering</strong>
+              <span>Data pipelines, model deployment, drift monitoring</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about-card-wrap">
+        <div class="about-card">
+          <div class="about-card-header">
+            <div class="about-avatar">MSN</div>
+            <div>
+              <div class="about-card-name">Mohammad Saleh</div>
+              <div class="about-card-role">AI/ML Researcher</div>
+            </div>
+          </div>
+          <div class="about-card-items">
+            <div class="card-item"><i class="fas fa-map-marker-alt"></i><span>Newark, NJ</span></div>
+            <div class="card-item"><i class="fas fa-university"></i><span>NJIT — PhD Candidate</span></div>
+            <div class="card-item"><i class="fas fa-star"></i><span>GPA 4.0 / 4.0</span></div>
+            <div class="card-item"><i class="fas fa-calendar-alt"></i><span>Graduating May 2027</span></div>
+            <div class="card-item"><i class="fas fa-id-card"></i><span>U.S. Permanent Resident</span></div>
+            <div class="card-item"><i class="fas fa-flask"></i><span>Journal Reviewer (3 journals)</span></div>
+          </div>
+          <div class="about-card-tags">
+            <span>Python</span><span>TensorFlow</span><span>PyTorch</span>
+            <span>LLMs</span><span>RAG</span><span>Time-Series</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ SKILLS ═══════════════════════════ -->
+<section id="skills" class="section section-dark">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">02 / Skills</span>
+      <h2 class="section-title">Technical Expertise</h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-category">
+        <div class="skill-cat-header">
+          <i class="fas fa-code"></i>
+          <h3>Programming</h3>
+        </div>
+        <div class="skill-bars">
+          <div class="skill-bar-item">
+            <div class="skill-bar-label"><span>Python</span><span>Expert</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" data-width="96"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-bar-label"><span>SQL</span><span>Advanced</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" data-width="85"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-bar-label"><span>R</span><span>Proficient</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" data-width="78"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-bar-label"><span>MATLAB</span><span>Advanced</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" data-width="82"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <div class="skill-cat-header">
+          <i class="fas fa-brain"></i>
+          <h3>Machine Learning</h3>
+        </div>
+        <div class="skill-tags-wrap">
+          <span class="skill-tag skill-tag-hot">Deep Learning</span>
+          <span class="skill-tag skill-tag-hot">Time-Series Forecasting</span>
+          <span class="skill-tag skill-tag-hot">Transformers</span>
+          <span class="skill-tag skill-tag-hot">RAG / LLM</span>
+          <span class="skill-tag">Reinforcement Learning</span>
+          <span class="skill-tag">XGBoost / Ensemble</span>
+          <span class="skill-tag">Probabilistic Models</span>
+          <span class="skill-tag">Anomaly Detection</span>
+          <span class="skill-tag">Transfer Learning</span>
+          <span class="skill-tag">Hyperparameter Tuning</span>
+          <span class="skill-tag">Model Deployment</span>
+          <span class="skill-tag">Drift Monitoring</span>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <div class="skill-cat-header">
+          <i class="fas fa-layer-group"></i>
+          <h3>Frameworks & Tools</h3>
+        </div>
+        <div class="skill-tags-wrap">
+          <span class="skill-tag skill-tag-hot">TensorFlow / Keras</span>
+          <span class="skill-tag skill-tag-hot">Scikit-learn</span>
+          <span class="skill-tag skill-tag-hot">Pandas / NumPy</span>
+          <span class="skill-tag skill-tag-hot">Agno SDK</span>
+          <span class="skill-tag">LlamaIndex</span>
+          <span class="skill-tag">ChromaDB</span>
+          <span class="skill-tag">Keras Tuner</span>
+          <span class="skill-tag">Docker</span>
+          <span class="skill-tag">Git / GitHub</span>
+          <span class="skill-tag">Tableau</span>
+          <span class="skill-tag">PowerBI</span>
+          <span class="skill-tag">Plotly</span>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <div class="skill-cat-header">
+          <i class="fas fa-cloud"></i>
+          <h3>Cloud & Data Infrastructure</h3>
+        </div>
+        <div class="skill-tags-wrap">
+          <span class="skill-tag skill-tag-hot">AWS</span>
+          <span class="skill-tag skill-tag-hot">Azure</span>
+          <span class="skill-tag">Hadoop / Spark</span>
+          <span class="skill-tag">PostgreSQL</span>
+          <span class="skill-tag">MySQL</span>
+          <span class="skill-tag">ETL Pipelines</span>
+          <span class="skill-tag">API Integration</span>
+          <span class="skill-tag">OpenRouter</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Radar chart -->
+    <div class="radar-wrap">
+      <canvas id="radarChart" width="380" height="380"></canvas>
+      <div class="radar-legend">
+        <h4>Competency Overview</h4>
+        <p>Self-assessed proficiency across core AI/ML domains, grounded in academic research and applied project experience.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ EXPERIENCE ═══════════════════════════ -->
+<section id="experience" class="section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">03 / Experience</span>
+      <h2 class="section-title">Where I've Worked</h2>
+    </div>
+    <div class="timeline">
+
+      <div class="timeline-item" data-aos="fade-up">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <div class="timeline-header">
+            <div>
+              <h3 class="timeline-role">Data Science &amp; AI Intern</h3>
+              <div class="timeline-company">
+                <i class="fas fa-building"></i> Kashmir World Foundation (KwF) · Remote
+              </div>
+            </div>
+            <span class="timeline-date">Dec 2025 – Present</span>
+          </div>
+          <div class="timeline-tags">
+            <span>Multi-Agent AI</span><span>RAG</span><span>LLMs</span>
+            <span>ChromaDB</span><span>Agno SDK</span><span>Python</span>
+          </div>
+          <ul class="timeline-bullets">
+            <li>Engineered an autonomous <strong>multi-agent system</strong> (Python, Agno SDK) for talent acquisition, integrating LLMs via OpenRouter and Google Workspace APIs</li>
+            <li>Implemented <strong>Retrieval-Augmented Generation (RAG)</strong> with ChromaDB to parse PDF resumes, converting unstructured text into structured JSON via LLM-based extraction</li>
+            <li>Researched transfer learning to detect distress signals in sentinel species, training Core ML models on human acoustic features for edge deployment</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="timeline-item" data-aos="fade-up">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <div class="timeline-header">
+            <div>
+              <h3 class="timeline-role">Graduate Research Assistant</h3>
+              <div class="timeline-company">
+                <i class="fas fa-university"></i> New Jersey Institute of Technology · Newark, NJ
+              </div>
+            </div>
+            <span class="timeline-date">Sep 2023 – Present</span>
+          </div>
+          <div class="timeline-tags">
+            <span>Deep Learning</span><span>RL</span><span>Forecasting</span>
+            <span>NSF I-Corps</span><span>SmartComfort</span><span>MATLAB</span>
+          </div>
+          <ul class="timeline-bullets">
+            <li>Lead NSF I-Corps <strong>SmartComfort</strong> startup ($53K grant), applying ML, deep learning, and reinforcement learning to sensor data for energy optimization and thermal comfort</li>
+            <li>Built reproducible <strong>data pipelines</strong> (cleaning, preprocessing, feature extraction, validation) and deployed forecasting models with drift monitoring</li>
+            <li>Mentored ~50 students in MATLAB for numerical computing and engineering problem-solving</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="timeline-item" data-aos="fade-up">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <div class="timeline-header">
+            <div>
+              <h3 class="timeline-role">Graduate Research Assistant</h3>
+              <div class="timeline-company">
+                <i class="fas fa-university"></i> Clemson University · Clemson, SC
+              </div>
+            </div>
+            <span class="timeline-date">Aug 2021 – Aug 2023</span>
+          </div>
+          <div class="timeline-tags">
+            <span>Clustering</span><span>Statistical Analysis</span><span>Data Mining</span>
+          </div>
+          <ul class="timeline-bullets">
+            <li>Applied clustering algorithms to analyze COVID-19 citation networks, identifying key research trends</li>
+            <li>Analyzed cleanroom air quality data using statistical methods; authored peer-reviewed publications</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="timeline-item" data-aos="fade-up">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <div class="timeline-header">
+            <div>
+              <h3 class="timeline-role">Energy Efficiency Intern</h3>
+              <div class="timeline-company">
+                <i class="fas fa-school"></i> Greenville County Schools, Energy Mgmt. · Greenville, SC
+              </div>
+            </div>
+            <span class="timeline-date">Jun – Aug 2022</span>
+          </div>
+          <div class="timeline-tags">
+            <span>Data Analysis</span><span>HVAC Analytics</span><span>Energy Auditing</span>
+          </div>
+          <ul class="timeline-bullets">
+            <li>Conducted data-driven energy audits for 60 schools; analyzed HVAC performance data to identify inefficiencies and achieve cost savings</li>
+            <li>Recognized as <strong>Best Intern (first-ever recipient)</strong> by Greenville County School District</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ PROJECTS ═══════════════════════════ -->
+<section id="projects" class="section section-dark">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">04 / Projects</span>
+      <h2 class="section-title">Featured Work</h2>
+    </div>
+    <div class="projects-grid">
+
+      <div class="project-card project-card-featured">
+        <div class="project-card-top">
+          <div class="project-icon"><i class="fas fa-chart-area"></i></div>
+          <div class="project-links">
+            <a href="https://github.com/mnikoopayan/quantile-patch-transformers" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <div class="project-badge">Featured · Under Review CI&CRC 2026</div>
+        <h3 class="project-title">Risk-Aware Building Control with Quantile Patch Transformers</h3>
+        <p class="project-desc">
+          Probabilistic short-term load forecasting (Q10/Q50/Q90) using a novel QR-PatchTST architecture on CU-BEMS data. 
+          Designed a risk-aware supervisory controller acting on the Q90 upper bound.
+        </p>
+        <div class="project-metrics">
+          <div class="metric"><span class="metric-val">83.26%</span><span class="metric-label">PICP</span></div>
+          <div class="metric"><span class="metric-val">73.3%</span><span class="metric-label">Peak Reduction</span></div>
+          <div class="metric"><span class="metric-val">24.06 kWh</span><span class="metric-label">Median MAE</span></div>
+        </div>
+        <div class="project-tags">
+          <span>Transformer</span><span>Quantile Regression</span><span>Time-Series</span>
+          <span>Python</span><span>TensorFlow</span><span>Smart Buildings</span>
+        </div>
+      </div>
+
+      <div class="project-card project-card-featured">
+        <div class="project-card-top">
+          <div class="project-icon"><i class="fas fa-bolt"></i></div>
+          <div class="project-links">
+            <a href="https://github.com/mnikoopayan/EnergyAI-TimeSeriesLab" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <div class="project-badge">Featured · 700K+ Observations</div>
+        <h3 class="project-title">End-to-End Deep Learning Pipeline for Smart-Building Power Data</h3>
+        <p class="project-desc">
+          Comprehensive multi-model pipeline (LSTM, CNN-LSTM, Transformer) with temporal feature engineering, 
+          Bayesian hyperparameter tuning, multi-horizon forecasting, and unsupervised anomaly detection.
+        </p>
+        <div class="project-metrics">
+          <div class="metric"><span class="metric-val">R² 0.986</span><span class="metric-label">Accuracy</span></div>
+          <div class="metric"><span class="metric-val">72%+</span><span class="metric-label">RMSE Improvement</span></div>
+          <div class="metric"><span class="metric-val">24h</span><span class="metric-label">Forecast Horizon</span></div>
+        </div>
+        <div class="project-tags">
+          <span>LSTM</span><span>CNN-LSTM</span><span>Transformer</span>
+          <span>Keras Tuner</span><span>Transfer Learning</span><span>Anomaly Detection</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-card-top">
+          <div class="project-icon"><i class="fas fa-users-cog"></i></div>
+          <div class="project-links">
+            <a href="https://github.com/mnikoopayan" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <h3 class="project-title">Autonomous Multi-Agent Talent Acquisition System</h3>
+        <p class="project-desc">
+          Agentic AI pipeline for automated resume screening and candidate evaluation using multi-agent orchestration, 
+          RAG with ChromaDB, and LLM-based structured extraction via OpenRouter.
+        </p>
+        <div class="project-tags">
+          <span>Agno SDK</span><span>RAG</span><span>ChromaDB</span>
+          <span>LLMs</span><span>OpenRouter</span><span>Google Workspace API</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-card-top">
+          <div class="project-icon"><i class="fas fa-thermometer-half"></i></div>
+          <div class="project-links"></div>
+        </div>
+        <h3 class="project-title">Indoor Thermal Comfort Prediction</h3>
+        <p class="project-desc">
+          XGBoost-based ML model trained on 100,000+ ASHRAE Global Thermal Comfort Database II records. 
+          Outperforms traditional PMV models by 50%+. Manuscript submitted to <em>Journal of Energy and Buildings</em>.
+        </p>
+        <div class="project-metrics">
+          <div class="metric"><span class="metric-val">84.5%</span><span class="metric-label">Test Accuracy</span></div>
+          <div class="metric"><span class="metric-val">50%+</span><span class="metric-label">Over PMV Baseline</span></div>
+        </div>
+        <div class="project-tags">
+          <span>XGBoost</span><span>EDA</span><span>Feature Engineering</span>
+          <span>ASHRAE Data</span><span>Scikit-learn</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-card-top">
+          <div class="project-icon"><i class="fas fa-cubes"></i></div>
+          <div class="project-links"></div>
+        </div>
+        <h3 class="project-title">Predictive Modeling of Concrete Compressive Strength</h3>
+        <p class="project-desc">
+          Ensemble ML models (Random Forest, Gradient Boosting, Neural Networks) on 1,030 samples. 
+          Published in <em>Infrastructures (MDPI)</em>, 2025.
+        </p>
+        <div class="project-metrics">
+          <div class="metric"><span class="metric-val">R² 0.92</span><span class="metric-label">Model Accuracy</span></div>
+        </div>
+        <div class="project-tags">
+          <span>Random Forest</span><span>Gradient Boosting</span><span>Neural Networks</span>
+          <span>Published 2025</span>
+        </div>
+      </div>
+
+      <div class="project-card project-card-nsf">
+        <div class="project-card-top">
+          <div class="project-icon"><i class="fas fa-leaf"></i></div>
+          <div class="project-links"></div>
+        </div>
+        <div class="project-badge project-badge-nsf">NSF I-Corps · $53,000 Grant</div>
+        <h3 class="project-title">SmartComfort — AI-Powered Building Optimization Startup</h3>
+        <p class="project-desc">
+          Entrepreneurial Lead of an NSF I-Corps funded startup applying reinforcement learning and 
+          deep learning to optimize building energy efficiency and occupant thermal comfort in real time.
+        </p>
+        <div class="project-tags">
+          <span>Reinforcement Learning</span><span>IoT Sensors</span><span>Deep Learning</span>
+          <span>NSF Funded</span><span>Startup</span>
+        </div>
+      </div>
+
+    </div>
+    <div class="projects-cta">
+      <a href="https://github.com/mnikoopayan" target="_blank" class="btn-outline">
+        <i class="fab fa-github"></i> View All on GitHub
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ PUBLICATIONS ═══════════════════════════ -->
+<section id="publications" class="section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">05 / Publications</span>
+      <h2 class="section-title">Research Output</h2>
+    </div>
+    <div class="pub-list">
+
+      <div class="pub-item pub-item-submitted">
+        <div class="pub-year-badge">2026</div>
+        <div class="pub-content">
+          <div class="pub-status pub-status-review">Under Review</div>
+          <h4 class="pub-title">Risk-Aware Supervisory Control Using Quantile Patch Transformer Forecasting for Smart Building Energy Management</h4>
+          <p class="pub-authors">Nikoopayan Tak, M.S. et al.</p>
+          <p class="pub-venue"><i class="fas fa-file-alt"></i> CI &amp; CRC 2026 (Submitted)</p>
+          <div class="pub-tags"><span>Transformer</span><span>Quantile Regression</span><span>Smart Buildings</span></div>
+        </div>
+      </div>
+
+      <div class="pub-item pub-item-submitted">
+        <div class="pub-year-badge">2026</div>
+        <div class="pub-content">
+          <div class="pub-status pub-status-review">Under Review</div>
+          <h4 class="pub-title">Machine Learning-Based Thermal Comfort Prediction: A Data-Driven Approach Using the ASHRAE Global Thermal Comfort Database II</h4>
+          <p class="pub-authors">Nikoopayan Tak, M.S. et al.</p>
+          <p class="pub-venue"><i class="fas fa-journal-whills"></i> Journal of Energy and Buildings (Submitted)</p>
+          <div class="pub-tags"><span>XGBoost</span><span>Thermal Comfort</span><span>ASHRAE</span></div>
+        </div>
+      </div>
+
+      <div class="pub-item">
+        <div class="pub-year-badge">2025</div>
+        <div class="pub-content">
+          <div class="pub-status pub-status-published">Published</div>
+          <h4 class="pub-title">Predictive Modeling of Concrete Compressive Strength Using Machine Learning</h4>
+          <p class="pub-authors">Nikoopayan Tak, M.S. et al.</p>
+          <p class="pub-venue"><i class="fas fa-journal-whills"></i> Infrastructures, MDPI (2025)</p>
+          <div class="pub-tags"><span>Random Forest</span><span>Gradient Boosting</span><span>Concrete Strength</span></div>
+          <a href="https://scholar.google.com/citations?user=wWVZoZ0AAAAJ" target="_blank" class="pub-link">
+            <i class="fas fa-external-link-alt"></i> View on Google Scholar
+          </a>
+        </div>
+      </div>
+
+      <div class="pub-item">
+        <div class="pub-year-badge">2024</div>
+        <div class="pub-content">
+          <div class="pub-status pub-status-published">Published</div>
+          <h4 class="pub-title">AI-Driven Approaches for Human-Building Interaction: A Review and Future Directions</h4>
+          <p class="pub-authors">Nikoopayan Tak, M.S. et al.</p>
+          <p class="pub-venue"><i class="fas fa-file-alt"></i> HCI International 2024 · ASES Solar 2024 · CI&amp;CRC 2024</p>
+          <div class="pub-tags"><span>Human-Building Interaction</span><span>AI Review</span><span>Smart Buildings</span></div>
+          <a href="https://scholar.google.com/citations?user=wWVZoZ0AAAAJ" target="_blank" class="pub-link">
+            <i class="fas fa-external-link-alt"></i> View on Google Scholar
+          </a>
+        </div>
+      </div>
+
+      <div class="pub-item">
+        <div class="pub-year-badge">2023</div>
+        <div class="pub-content">
+          <div class="pub-status pub-status-published">Published</div>
+          <h4 class="pub-title">Bibliometric Analysis of COVID-19 Research: Clustering and Citation Network Analysis</h4>
+          <p class="pub-authors">Nikoopayan Tak, M.S. et al.</p>
+          <p class="pub-venue"><i class="fas fa-journal-whills"></i> Peer-Reviewed Journal (Clemson University)</p>
+          <div class="pub-tags"><span>Clustering</span><span>Citation Networks</span><span>Data Mining</span></div>
+          <a href="https://scholar.google.com/citations?user=wWVZoZ0AAAAJ" target="_blank" class="pub-link">
+            <i class="fas fa-external-link-alt"></i> View on Google Scholar
+          </a>
+        </div>
+      </div>
+
+    </div>
+    <div class="pub-cta">
+      <a href="https://scholar.google.com/citations?user=wWVZoZ0AAAAJ" target="_blank" class="btn-outline">
+        <i class="fas fa-graduation-cap"></i> Full Profile on Google Scholar
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ AWARDS ═══════════════════════════ -->
+<section id="awards" class="section section-dark">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">06 / Recognition</span>
+      <h2 class="section-title">Awards &amp; Honors</h2>
+    </div>
+    <div class="awards-grid">
+      <div class="award-card award-card-gold">
+        <div class="award-icon"><i class="fas fa-trophy"></i></div>
+        <div class="award-amount">$53,000</div>
+        <h3>NSF I-Corps Grant</h3>
+        <p>Entrepreneurial Lead, SmartComfort Startup</p>
+        <span class="award-org">National Science Foundation · NJIT · 2025</span>
+      </div>
+      <div class="award-card award-card-silver">
+        <div class="award-icon"><i class="fas fa-medal"></i></div>
+        <div class="award-amount">$3,000</div>
+        <h3>Business Model Competition Winner</h3>
+        <p>1st Place, New Business Model Competition</p>
+        <span class="award-org">NJIT · 2025</span>
+      </div>
+      <div class="award-card">
+        <div class="award-icon"><i class="fas fa-star"></i></div>
+        <h3>Best Intern Award</h3>
+        <p>First-ever recipient of this award in the district</p>
+        <span class="award-org">Greenville County School District · 2022</span>
+      </div>
+      <div class="award-card">
+        <div class="award-icon"><i class="fas fa-scroll"></i></div>
+        <h3>Sigma Lambda Chi</h3>
+        <p>National Honor Society for Construction</p>
+        <span class="award-org">Clemson University · 2022</span>
+      </div>
+      <div class="award-card">
+        <div class="award-icon"><i class="fas fa-pen-nib"></i></div>
+        <h3>Peer Journal Reviewer</h3>
+        <p>Engineering Applications of AI · Neural Networks · Expert Systems with Applications</p>
+        <span class="award-org">Elsevier · Sep 2024 – Present</span>
+      </div>
+      <div class="award-card">
+        <div class="award-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+        <h3>Conference Speaker</h3>
+        <p>CI&amp;CRC · ASES Solar · HCI International</p>
+        <span class="award-org">Mar – Jul 2024</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ EDUCATION ═══════════════════════════ -->
+<section id="education" class="section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">07 / Education</span>
+      <h2 class="section-title">Academic Background</h2>
+    </div>
+    <div class="edu-cards">
+      <div class="edu-card edu-card-primary">
+        <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+        <div class="edu-content">
+          <div class="edu-degree">PhD in AI &amp; Machine Learning Research</div>
+          <div class="edu-school">New Jersey Institute of Technology</div>
+          <div class="edu-location"><i class="fas fa-map-marker-alt"></i> Newark, NJ</div>
+          <div class="edu-gpa"><i class="fas fa-star"></i> GPA: 4.0 / 4.0</div>
+          <div class="edu-date">Expected May 2027</div>
+          <div class="edu-courses">
+            <strong>Coursework:</strong> Applied ML · Deep Learning · Data Mining · Big Data Analytics · 
+            Reinforcement Learning · NLP · Artificial Intelligence · Quantitative Methods
+          </div>
+          <div class="edu-focus">
+            <strong>Research:</strong> AI &amp; Data Analytics for Human-Building Interactions
+          </div>
+        </div>
+      </div>
+      <div class="edu-card">
+        <div class="edu-icon"><i class="fas fa-university"></i></div>
+        <div class="edu-content">
+          <div class="edu-degree">MS in Construction Science &amp; Management</div>
+          <div class="edu-school">Clemson University</div>
+          <div class="edu-location"><i class="fas fa-map-marker-alt"></i> Clemson, SC</div>
+          <div class="edu-date">August 2023</div>
+        </div>
+      </div>
+      <div class="edu-card">
+        <div class="edu-icon"><i class="fas fa-university"></i></div>
+        <div class="edu-content">
+          <div class="edu-degree">BS in Civil Engineering</div>
+          <div class="edu-school">Sharif University of Technology</div>
+          <div class="edu-location"><i class="fas fa-map-marker-alt"></i> Tehran, Iran</div>
+          <div class="edu-date">February 2020</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ CONTACT ═══════════════════════════ -->
+<section id="contact" class="section section-dark">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">08 / Contact</span>
+      <h2 class="section-title">Let's Connect</h2>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <p class="contact-lead">
+          I am actively seeking <strong>Summer 2026 internships</strong> and <strong>full-time positions</strong> 
+          (post-May 2027) in Data Science, Machine Learning, and AI Engineering. 
+          I am open to roles in industry, research labs, and startups.
+        </p>
+        <div class="contact-items">
+          <a href="mailto:tak.msn96@gmail.com" class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <span class="contact-label">Email</span>
+              <span class="contact-val">tak.msn96@gmail.com</span>
+            </div>
+          </a>
+          <a href="https://linkedin.com/in/mnikoopayan" target="_blank" class="contact-item">
+            <i class="fab fa-linkedin"></i>
+            <div>
+              <span class="contact-label">LinkedIn</span>
+              <span class="contact-val">linkedin.com/in/mnikoopayan</span>
+            </div>
+          </a>
+          <a href="https://github.com/mnikoopayan" target="_blank" class="contact-item">
+            <i class="fab fa-github"></i>
+            <div>
+              <span class="contact-label">GitHub</span>
+              <span class="contact-val">github.com/mnikoopayan</span>
+            </div>
+          </a>
+          <a href="https://scholar.google.com/citations?user=wWVZoZ0AAAAJ" target="_blank" class="contact-item">
+            <i class="fas fa-graduation-cap"></i>
+            <div>
+              <span class="contact-label">Google Scholar</span>
+              <span class="contact-val">View Publications</span>
+            </div>
+          </a>
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <span class="contact-label">Location</span>
+              <span class="contact-val">Newark, NJ · Open to Relocation</span>
+            </div>
+          </div>
+        </div>
+        <a href="assets/Resume_Nikoopayan.pdf" class="btn-primary btn-download" target="_blank">
+          <i class="fas fa-download"></i> Download Resume
+        </a>
+      </div>
+      <div class="contact-card">
+        <div class="contact-card-inner">
+          <div class="contact-card-header">
+            <div class="contact-avatar">MSN</div>
+            <div>
+              <div class="contact-card-name">Mohammad Saleh Nikoopayan Tak</div>
+              <div class="contact-card-role">AI/ML Researcher &amp; Data Scientist</div>
+            </div>
+          </div>
+          <div class="contact-open-to">
+            <div class="open-to-label">Open to</div>
+            <div class="open-to-tags">
+              <span>Data Science</span>
+              <span>ML Engineering</span>
+              <span>AI Research</span>
+              <span>LLM / GenAI</span>
+              <span>Applied ML</span>
+              <span>Research Scientist</span>
+            </div>
+          </div>
+          <div class="contact-work-auth">
+            <i class="fas fa-check-circle"></i>
+            U.S. Permanent Resident · No Sponsorship Required
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ FOOTER ═══════════════════════════ -->
+<footer id="footer">
+  <div class="container footer-inner">
+    <div class="footer-logo">
+      <span class="logo-bracket">&lt;</span>MSN<span class="logo-bracket">/&gt;</span>
+    </div>
+    <p class="footer-copy">© 2025 Mohammad Saleh Nikoopayan Tak · Built with purpose.</p>
+    <div class="footer-socials">
+      <a href="https://github.com/mnikoopayan" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://linkedin.com/in/mnikoopayan" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://scholar.google.com/citations?user=wWVZoZ0AAAAJ" target="_blank"><i class="fas fa-graduation-cap"></i></a>
+      <a href="mailto:tak.msn96@gmail.com"><i class="fas fa-envelope"></i></a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
